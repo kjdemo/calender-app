@@ -2,19 +2,60 @@
   display: flex;
 }
 .side-bar {
-  background-color: black;
+  background-color:blueviolet;
   width: 400px;
   height: 100vh;
+  padding: 5px;
 }
 .side-bar-header {
   height: 100px;
   border-bottom: 1px solid grey;
-  padding: 0 20px;
+  padding: 0 10px;
+  display: flex;
+  font-size: 16px;
+}
+
+.header-name{
+  padding: 30px;
+  color: white;
+}
+label {
+  cursor: default;
+  color: white;
+}
+.dete-select{
+  padding: 30px;
 }
 .tasks {
-  background-color: black;
+  background-color: blueviolet;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
+}
+.task-header{
+  font-size: 30px;
+}
+.new-task{
+  display: flex;
+  margin-top: 15px;
+}
+.task_form {
+  border: 1px solid white;
+}
+.send {
+  margin: 5px;
+  border: 1px solid white;
+  color: white;
+  background-color: blue;
+}
+.task {
+  padding: 30px 10px 5px;
+  font-size: 20px;
+}
+
+.task-name a {
+  text-decoration: none;
+  color: white;
 }
 
 .main {
